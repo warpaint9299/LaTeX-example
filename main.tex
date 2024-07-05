@@ -1,0 +1,132 @@
+% !TEX program = xelatex
+\documentclass{article}
+\usepackage{ulem}
+\usepackage{ctex}
+\usepackage{ragged2e}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{fontspec}
+\setmainfont{VictorMono Nerd Font}
+\setsansfont{Source Han Sans CN}
+\setmonofont{VictorMono Nerd Font}
+\usepackage{fontsize}
+\changefontsize[12pt]{12pt}
+\begin{document}
+\begin{figure}
+	\centering
+	\textbf{The quick brown fox jumps over the lazy dog} \\
+	\textit{The quick brown fox jumps over the lazy dog} \\
+	\uline{The quick brown fox jumps over the lazy dog} \\
+	\sout{The quick brown fox jumps over the lazy dog} \\
+	{\large
+	$\mathbb{ABCDEFGHIJKLNOPQRSTUVWXYZ}$ \\
+	$\mathbb{abcdefghijklnopqrstuvwxyz}$ \\
+	$\mathbb{0123456789}$ \\
+	}
+	{\Large
+	$\alpha$
+	$\beta$
+	$\gamma$
+	$\delta$
+	$\epsilon$
+	$\zeta$
+	$\eta$
+	$\theta$
+	$\iota$
+	$\kappa$
+	$\lambda$
+	$\mu$
+	$\nu$
+	$\xi$
+	$\pi$
+	$\rho$
+	$\sigma$
+	$\tau$
+	$\upsilon$
+	$\phi$
+	$\chi$
+	$\psi$
+	$\omega$
+	} \\
+	{\Large
+	$\pm$
+	$\times$
+	$\div$
+	$\rightarrow$
+	$\leftarrow$
+	$\Rightarrow$
+	$\Leftarrow$
+	$\int$
+	$\sum$
+	$\prod$
+	} \\
+	{\Large
+	$\frac{1}{2}$
+	$\sqrt{2}$
+	$\sqrt[2]{2}$
+	$(a + b)$
+	$[a + b]$
+	$\{a + b\}$
+	$\left( \frac{a}{b} \right)$
+	} \\
+	{\Large
+	$\mathbf{v} = [v_1, v_2, v_3]$
+	$\{x \mid x > 0\}$
+	$\left\{ \frac{a}{b} \right\}$
+	} \\
+	{\Large
+	$\sum_{i=1}^{n} i$
+	$\int f(x) \, dx$
+	$\int_{a}^{b} f(x) \, dx$
+	$\iint_{D} f(x, y) \, dA$
+	$\lim_{x \to \infty} f(x)$
+	} \\
+	{\Large
+	$
+		\begin{bmatrix}
+			a & b \\
+			c & d \\
+		\end{bmatrix}
+	$
+	$
+		\begin{pmatrix}
+			a & b \\
+			c & d \\
+		\end{pmatrix}
+	$
+	$
+		\begin{vmatrix}
+			a & b \\
+			c & d \\
+		\end{vmatrix}
+	$
+	$
+		\begin{smallmatrix}
+			a & b \\
+			c & d \\
+		\end{smallmatrix}
+	$
+	$\vec{v}$
+	} \\
+	{\Large
+	\begin{equation}
+		\begin{aligned}
+			a + b & = c     \\
+			d     & = e + f
+		\end{aligned}
+	\end{equation}
+	}
+	{\Large
+	$
+		\begin{cases}
+			x + y = 3 \\
+			2x - y = 1
+		\end{cases}
+	$
+	\begin{align}
+		zx + y & < 5   \\
+		2x - y & \geq 3
+	\end{align}
+	}
+\end{figure}
+\end{document}
